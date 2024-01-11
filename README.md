@@ -7,7 +7,7 @@ Log-out (Ctrl+Shift+E) and log back in if all changes do not take effect.
 Rename and place bashrc at $HOME/.bashrc
 
 Dependencies:
-i3-gaps, i3blocks, net-tools, picom, dunst, xdotool, network-manager-applet, alacritty, git, rsync, yay, awesome-terminal-fonts, noto-fonts, noto-fonts-emoji, nitrogen
+i3-gaps, i3blocks, net-tools, picom, dunst, xdotool,i network-manager-applet, alacritty, git, rsync, yay, awesome-terminal-fonts, noto-fonts, noto-fonts-emoji, nitrogen, rofi
 
 Optional dependencies:
-arandr, net-tools, dropbox, sxiv, anaconda
+arandr, net-tools, dropbox, sxiv, anaconda, blueman.
