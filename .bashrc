@@ -12,10 +12,14 @@ alias playonlinux='com.playonlinux.PlayOnLinux4'
 alias vlc='org.videolan.VLC'
 alias vpn='netExtender --username=janmejoy.sarkar --password=J@nMeJoY#*p*2022 --domain=LocalDomain --auto-reconnect moon.iucaa.in:4433'
 alias gnome-settings='XDG_CURRENT_DESKTOP=GNOME gnome-control-center'
+alias ql='python3 /home/janmejoyarch/Dropbox/Janmejoy_SUIT_Dropbox/scripts/quick_look.py'
+alias sc='python3 /home/janmejoyarch/Dropbox/Janmejoy_SUIT_Dropbox/scripts/suncenter_plot.py'
+alias msword="wine '/home/janmejoyarch/.wineprefix/office2007/drive_c/Program Files (x86)/Microsoft Office/Office12/WINWORD.EXE'"
+alias msppt="wine '/home/janmejoyarch/.wineprefix/office2007/drive_c/Program Files (x86)/Microsoft Office/Office12/POWERPNT.EXE'"
+alias msexcel="wine '/home/janmejoyarch/.wineprefix/office2007/drive_c/Program Files (x86)/Microsoft Office/Office12/EXCEL.EXE'"
 export PS1="\[\e[38;5;216m\]\u\[\e[38;5;220m\]@\[\e[38;5;222m\]\h \[\e[38;5;229m\]\w \[\033[0m\]$ "
-export DISK="/run/media/janmejoy/data/"
+export WINEPREFIX='/home/janmejoyarch/.wineprefix/office2007'
 TERMINAL='/bin/kgx'
-
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
 __conda_setup="$('/home/janmejoyarch/anaconda3/bin/conda' 'shell.bash' 'hook' 2> /dev/null)"
